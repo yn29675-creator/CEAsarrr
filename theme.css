@@ -1,16 +1,11 @@
-/** @name CEAsarrr Theme */
-/** @version 1.0.0 */
-/** @author yn29675-creator */
-/** @description A custom Equicord theme */
-:root {
- --primary-color: #1e1e2e;
- --secondary-color: #313244;
- --accent-color: #89b4fa;
- --text-primary: #cdd6f4;
- --text-secondary: #a6adc8;
-}
+/*
+Theme: Yo Chico
+Description: A vibrant blue and pink theme.
+Author: yn29675-creator
+Date: 2026-03-28 18:14:12
+*/
 
 body {
- background-color: var(--primary-color);
- color: var(--text-primary);
+    background-color: blue;
+    color: pink;
 }
