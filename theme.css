@@ -1,0 +1,26 @@
+/* @name CEA Theme */
+/* @version 1.0 */
+/* @author yn29675-creator */
+/* @description A custom theme for Equicord */
+
+:root {
+  --primary-color: #1e1e2e;
+  --secondary-color: #313244;
+  --accent-color: #89b4fa;
+  --text-primary: #cdd6f4;
+  --text-secondary: #a6adc8;
+  --success-color: #a6e3a1;
+  --warning-color: #f9e2af;
+  --danger-color: #f38ba8;
+}
+
+* {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-primary);
+}
+
+/* Add your custom theme styles below */
