@@ -1,42 +1,11 @@
-.theme {
-    /* Base theme styling */
+/*
+ Theme: CEAsarrr
+ Author: yn29675-creator
+ Date: 2026-03-28 17:59:11 UTC
+*/
+
+body {
     background-color: #f0f0f0;
     color: #333;
     font-family: Arial, sans-serif;
-}
-
-.theme-header {
-    /* Header styles */
-    background-color: #4CAF50;
-    padding: 10px;
-    text-align: center;
-    font-size: 24px;
-    color: white;
-}
-
-.theme-button {
-    /* Button styles */
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.theme-button:hover {
-    background-color: #007B9A;
-}
-
-.theme-footer {
-    /* Footer styles */
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
 }
