@@ -1,11 +1,16 @@
-/*
- Theme: CEAsarrr
- Author: yn29675-creator
- Date: 2026-03-28 17:59:11 UTC
-*/
+/** @name CEAsarrr Theme */
+/** @version 1.0.0 */
+/** @author yn29675-creator */
+/** @description A custom Equicord theme */
+:root {
+ --primary-color: #1e1e2e;
+ --secondary-color: #313244;
+ --accent-color: #89b4fa;
+ --text-primary: #cdd6f4;
+ --text-secondary: #a6adc8;
+}
 
 body {
-    background-color: #f0f0f0;
-    color: #333;
-    font-family: Arial, sans-serif;
+ background-color: var(--primary-color);
+ color: var(--text-primary);
 }
