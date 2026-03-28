@@ -1,26 +1,42 @@
-/* @name CEA Theme */
-/* @version 1.0 */
-/* @author yn29675-creator */
-/* @description A custom theme for Equicord */
-
-:root {
-  --primary-color: #1e1e2e;
-  --secondary-color: #313244;
-  --accent-color: #89b4fa;
-  --text-primary: #cdd6f4;
-  --text-secondary: #a6adc8;
-  --success-color: #a6e3a1;
-  --warning-color: #f9e2af;
-  --danger-color: #f38ba8;
+.theme {
+    /* Base theme styling */
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
 }
 
-* {
-  color-scheme: dark;
+.theme-header {
+    /* Header styles */
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
 }
 
-body {
-  background-color: var(--primary-color);
-  color: var(--text-primary);
+.theme-button {
+    /* Button styles */
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
-/* Add your custom theme styles below */
+.theme-button:hover {
+    background-color: #007B9A;
+}
+
+.theme-footer {
+    /* Footer styles */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
